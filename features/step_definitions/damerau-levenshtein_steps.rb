@@ -11,5 +11,5 @@ When /^I run "([^\"]*)" method "([^\"]*)"$/ do |klass, meth|
 end
 
 Then /^I should receive edit distance "([^\"]*)"$/ do |edit_distance|
-  @distance.should == edit_distance.to_i
+  expect(@distance).to eq(edit_distance.to_i)
 end
