@@ -5,6 +5,7 @@ AllCops:
     - bundle_bin/**/*
   Include:
     - damerau-levenshtein.gemspec
+  TargetRubyVersion: ">=2.5"
 Metrics/ModuleLength:
   Max: 1000
 Style/StringLiterals:
